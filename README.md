@@ -1,10 +1,11 @@
 # Avatar Video Generator using Python, D-ID API and Streamlit
 
-This is a Python script that generates an avatar video from text using the D-ID API and Streamlit for user interaction. 
-The script allows you to select between male and female avatars, input a text prompt, and generate a video with the selected avatar 
+This is a Python script that generates an avatar video from text using the D-ID API and Streamlit for user interaction.
+The script allows you to select between male and female avatars, input a text prompt, and generate a video with the selected avatar
 narrating the provided text.
 
 ![Example Output](images/output.png)
+
 ## Prerequisites
 
 - Python 3.6+
@@ -23,6 +24,7 @@ narrating the provided text.
    ```
 
 3. Set up your D-ID API credentials:
+
    - Obtain an API key from the D-ID website.
    - Create a `.env` file in the same directory as the script.
    - Add your API key to the `.env` file:
@@ -36,7 +38,7 @@ narrating the provided text.
 1. Run the Streamlit app using the following command:
 
    ```bash
-   streamlit run main.py
+   python -m streamlit run main.py
    ```
 
 2. The Streamlit app will open in your default web browser.
@@ -63,8 +65,8 @@ narrating the provided text.
 - This script uses the D-ID API to generate avatar videos. Make sure you have valid API credentials and permissions to use the D-ID service.
 - The video generation process may take some time, and the script includes logic to periodically check the status of the video generation.
 
-
 For more information on the D-ID API and Streamlit, refer to the following resources:
+
 - D-ID API Documentation: [D-ID API Documentation](https://docs.d-id.com/)
 - Streamlit Documentation: [Streamlit Documentation](https://docs.streamlit.io/)
 - D-ID Website: [D-ID](https://d-id.com/)
